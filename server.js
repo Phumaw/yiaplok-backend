@@ -15,7 +15,7 @@ app.use(express.json())
 app.use(cookieParser())
 // ในไฟล์หลักของ Backend (ที่คุณ import express, cors)
 app.use(cors({
-    origin: "https://yiaplok-store.netlify.app", // ระบุ URL ของ Frontend คุณ (ห้ามใส่ *)
+    origin: "https://yiaplok-stores.netlify.app", // ระบุ URL ของ Frontend คุณ (ห้ามใส่ *)
     credentials: true                // อนุญาตให้ส่ง Token/Cookie
 }));
 
